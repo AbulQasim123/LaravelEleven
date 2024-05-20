@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Middleware\IsAdminExample;
+use Illuminate\Support\Facades\Response;
 use App\Http\Controllers\{
     PostController,
     RoleController,
@@ -20,6 +21,9 @@ use App\Http\Controllers\{
     OrderController,
     VedioController
 };
+use App\Models\Anchor;
+use Carbon\PHPStan\LazyMacro;
+use Carbon\PHPStan\Macro;
 
 Route::get('/', function () {
     return view('welcome');
@@ -44,3 +48,7 @@ Route::resource('blogs', BlogController::class);
 Route::resource('videos', VedioController::class);
 Route::resource('comments', CommentController::class);
 Route::resource('jsondatas', JsonDataController::class);
+
+Route::get('test-macro', function () {
+    return Response::something(Anchor::get(['name','email']));
+});
