@@ -26,7 +26,7 @@ use Carbon\PHPStan\LazyMacro;
 use Carbon\PHPStan\Macro;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
 Route::get('/test', [PostController::class, 'index'])

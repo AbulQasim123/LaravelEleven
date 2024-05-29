@@ -1,22 +1,19 @@
 <?php
 
-namespace App\View\Components;
+namespace App\View\Components\forms;
 
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class alert extends Component
+class input extends Component
 {
     /**
      * Create a new component instance.
      */
-    public $type;
-    public $message;
-    public function __construct($type = 'warning', $message = 'Default Message')
+    public function __construct()
     {
-        $this->type = $type;
-        $this->message = $message;
+        //
     }
 
     /**
@@ -24,6 +21,6 @@ class alert extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.alert');
+        return view('components.forms.input');
     }
 }

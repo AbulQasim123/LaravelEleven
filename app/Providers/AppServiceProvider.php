@@ -18,8 +18,6 @@ class AppServiceProvider extends ServiceProvider
         $this->app->bind(PaymentGateway::class, function () {
             return new PaymentGateway('23423423');
         });
-
-
     }
 
     /**
@@ -35,7 +33,7 @@ class AppServiceProvider extends ServiceProvider
         });
 
         // Boot the AboutCommand
-        AboutCommand::add('Laravel Docs',[
+        AboutCommand::add('Laravel Docs', [
             'type' => 'Artisan Hub',
             'author' => 'Abul Qasim',
         ]);
