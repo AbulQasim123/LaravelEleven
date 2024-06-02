@@ -19,8 +19,6 @@ class Anchor extends Model
     use HasFactory;
     protected $guarded = [];
 
-
-
     // Laravel Local Query Scope
     public function scopeSort($query)
     {
