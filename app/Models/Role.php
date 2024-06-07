@@ -10,6 +10,7 @@ class Role extends Model
 {
     use HasFactory;
     protected $guarded = [];
+
     // many to many Relationship
     public function admins()
     {

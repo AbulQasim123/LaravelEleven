@@ -37,12 +37,12 @@ class AppServiceProvider extends ServiceProvider
             return $user->role === 'admin';
         });
 
-        Response::macro('something', function ($data) {
-            return Response::json([
-                'status' => true,
-                'data' => $data,
-            ]);
-        });
+        // Response::macro('something', function ($data) {
+        //     return Response::json([
+        //         'status' => true,
+        //         'data' => $data,
+        //     ]);
+        // });
 
         // Boot the AboutCommand
         AboutCommand::add('Laravel Docs', [

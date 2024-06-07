@@ -5,13 +5,25 @@ use App\Http\Middleware\IsAdminExample;
 use Illuminate\Support\Facades\Response;
 use App\Http\Controllers\{
     PostController,
+    FrontHomeController,
+    DragDropController,
     RoleController,
+    CKEditorController,
+    AjaxFormController,
+    jqueryAutoComplete,
+    VacancyCRUDController,
     UserController,
+    UploadPreviewController,
     AdminController,
     AnchorController,
+    MyUploadController,
     BlogController,
     CommentController,
+    TaskController,
     ContactController,
+    SearchAutComplete,
+    HomeController,
+    MovieController,
     CountryController,
     StudentController,
     CustomerController,
@@ -19,18 +31,23 @@ use App\Http\Controllers\{
     JsonDataController,
     NewsController,
     OrderController,
-    VedioController
+    HelloController,
+    VedioController,
+    ExcelImportController
 };
 use App\Models\Anchor;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Auth;
 
 Route::get('/', function () {
     return view('index');
 });
 
 Route::get('/test', [PostController::class, 'index'])
-    ->middleware('is_admin:asdmin')->name('test');
+    ->middleware('is_admin:admin')->name('test');
 
 Route::resource('students', StudentController::class);
 Route::resource('contacts', ContactController::class);
@@ -209,3 +226,69 @@ Route::get('collection', function (Request $request) {
     $flipped = $collection->forget('framework');
     dd($flipped->all());
 });
+
+// Laravel 11
+Route::get('hello-email', [HelloController::class, 'sendHelloMail']);
+Route::get('/import', [ExcelImportController::class, 'showForm']);
+Route::post('/import', [ExcelImportController::class, 'import'])->name('import');
+
+Auth::routes();
+
+Route::get('/home', [HomeController::class, 'index'])->name('home');
+
+
+//users routes
+Route::middleware(['auth', 'access-level:user'])->group(function () {
+    Route::get('/welocme', [HomeController::class, 'index'])->name('welcome');
+});
+
+// admin routes
+Route::middleware(['auth', 'access-level:admin'])->group(function () {
+    Route::get('/admin/dashboard', [HomeController::class, 'dashboard'])->name('admin.dashboard');
+});
+
+// Frontend routes
+Route::get('image', [FrontHomeController::class, 'image']);
+Route::post('store', [FrontHomeController::class, 'store']);
+Route::get("ck-form", [CKEditorController::class, "index"]);
+
+Route::get('form', [SearchAutComplete::class, 'index']);
+Route::get('search-autocomplete', [SearchAutComplete::class, 'searchAutocomplete']);
+Route::get('input-form', [jqueryAutoComplete::class, 'index']);
+Route::get('search-autocomplete', [jqueryAutoComplete::class, 'searchAutocomplete']);
+
+// Movie routes
+Route::get('/movies-list', [MovieController::class, 'index']);
+Route::get('/cart-list', [MovieController::class, 'movieCart']);
+Route::post('add-to-cart', [MovieController::class, 'addMovieToCart'])->name('add-movie-to-shopping-cart');
+Route::delete('/delete-cart-item', [MovieController::class, 'deleteItem'])->name('delete.cart.item');
+
+// Task routes
+Route::get('tasks', [TaskController::class, 'index']);
+Route::get('taskEdit/{id}/', [TaskController::class, 'edit']);
+Route::post('taskStore', [TaskController::class, 'store']);
+Route::get('taskDelete/{id}', [TaskController::class, 'destroy']);
+
+// Vacancy routes
+Route::get('vacancies', [VacancyCRUDController::class, 'index']);
+Route::get('add-vacancy', [VacancyCRUDController::class, 'create']);
+Route::post('save-vacancy', [VacancyCRUDController::class, 'store']);
+Route::get('edit/{id}', [VacancyCRUDController::class, 'edit']);
+Route::post('update', [VacancyCRUDController::class, 'update']);
+Route::get('delete/{id}', [VacancyCRUDController::class, 'destroy']);
+
+// Drag and drop routes
+Route::get('drag-drop-form', [DragDropController::class, 'form']);
+Route::post('uploadFiles', [DragDropController::class, 'uploadFiles']);
+
+// Image upload preview routes
+Route::get('preview-images', [UploadPreviewController::class, 'previewImages']);
+Route::post('uploads', [UploadPreviewController::class, 'uploadMultipleImages']);
+
+// My Upload routes
+Route::get('my-form', [MyUploadController::class, 'index']);
+Route::post('upload-image', [MyUploadController::class, 'multipleUpload']);
+
+// Ajax Form routes
+Route::get('form', [AjaxFormController::class, 'index']);
+Route::post('save', [AjaxFormController::class, 'store']);

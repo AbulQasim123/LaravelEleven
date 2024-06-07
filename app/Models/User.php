@@ -13,7 +13,7 @@ use Laravel\Sanctum\HasApiTokens;
 
 class User extends Authenticatable
 {
-    use HasFactory, Notifiable , HasApiTokens;
+    use HasFactory, Notifiable, HasApiTokens;
 
     /**
      * The attributes that are mass assignable.
@@ -24,6 +24,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'type'
     ];
 
     /**
@@ -54,6 +55,13 @@ class User extends Authenticatable
     {
         return $this->hasMany(Post::class);
         // return $this->hasMany(Post::class, 'user_id', 'id'); // if we create manually, we can use this forign key and primary key
+    }
+
+    protected function type(): Attribute
+    {
+        return new Attribute(
+            get: fn ($value) =>  $value == 2 ? "admin" : "user",
+        );
     }
 
     // Laravel Accessor & Mutator

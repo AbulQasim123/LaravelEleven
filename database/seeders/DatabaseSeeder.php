@@ -17,7 +17,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        $faker = Faker::create();
+        // $faker = Faker::create();
         // User::factory(10)->create();
 
         // User::factory()->create([
@@ -48,23 +48,42 @@ class DatabaseSeeder extends Seeder
         //     ]);
         // }
 
-        foreach (range(1, 5) as $index) {
-            $userId = DB::table('users')->insertGetId([
-                'name' => $faker->name,
-                'email' => $faker->email(),
-                'password' => $faker->password(),
-                'created_at' => now(),
-                'updated_at' => now(),
+        // foreach (range(1, 5) as $index) {
+        //     $userId = DB::table('users')->insertGetId([
+        //         'name' => $faker->name,
+        //         'email' => $faker->email(),
+        //         'password' => $faker->password(),
+        //         'created_at' => now(),
+        //         'updated_at' => now(),
 
-            ]);
+        //     ]);
 
-            DB::table('posts')->insert([
-                'title' => $faker->title(),
-                'description' => $faker->sentence(),
-                'user_id' => $userId,
-                'created_at' => now(),
-                'updated_at' => now(),
-            ]);
+        //     DB::table('posts')->insert([
+        //         'title' => $faker->title(),
+        //         'description' => $faker->sentence(),
+        //         'user_id' => $userId,
+        //         'created_at' => now(),
+        //         'updated_at' => now(),
+        //     ]);
+        // }
+
+        $users = [
+            [
+                'name' => 'Admin User',
+                'email' => 'admin@gmail.com',
+                'type' => 2,
+                'password' => bcrypt('password'),
+            ],
+            [
+                'name' => 'User',
+                'email' => 'user@gmail.com',
+                'type' => 1,
+                'password' => bcrypt('password'),
+            ],
+        ];
+
+        foreach ($users as $key => $user) {
+            User::create($user);
         }
     }
 }
