@@ -1,0 +1,436 @@
+-------------Sample email to send resume to recruiter-------------
+Dear (Recruiter name)
+I am (name) and I'm interested in the post of (job name). My résumé is attached to this email.
+After reading the job description, I believe I possess all the necessary abilities and credentials. Details about my current employment and previous roles are also available.
+Can you describe the steps in the process and how they will be completed?
+You can reach me at on (insert details). I'm interested in your response regarding how to proceed with my application. 
+
+Your name
+
+
+--------------Sample email to send resume to job-----------------
+Dear (Recipient's name),
+My name is (name), and I'm submitting an application for the job of (job name). A copy of my résumé is attached to this email.
+I have (X) years of industry experience and a lot of transferrable knowledge. I've read the job description, and I think I'm qualified to perform the job well.
+I'm eager to apply for the position of (job name) because it's a fantastic opportunity in a fantastic company.
+Please don't hesitate to get in touch with me if you have any questions (insert contact details). Would you kindly confirm that you received my email and inform me of the procedure's next steps?
+
+best regards
+Your name
+
+
+----------------Sample email cover letter with attached resume---------------
+Dear (Recruiter name)
+I'm making an application for the job of (job title) at (company).
+Please find my CV and cover letter attached as stated in the job description. I describe my motivation for applying for the job, my prior experience, and my pay goals in my cover letter.
+You can reach me at any time at (insert phone number) or by email if you have any questions (insert address).
+Regards
+
+
+-------------Thank you for considering my resume email template-------------------
+Dear (Recruiter name)
+Thank you for taking a look at my application for the post of (position name) at (company name).
+Even though I was unhappy that I wasn't selected for the interview, I can see why. If it's feasible, I'd like to continue in touch with you, so please send me information on any upcoming opportunities you think I could be a good fit for.
+I prefer to be reached by email at (insert details)
+Please feel free to keep my resume on file and don't be afraid to get in touch with me if you have any inquiries.
+
+
+----------------------Best email template for sending a resume by email-------------------------
+Dear (Recruiter name)
+I have attached my resume for the position of (insert details).
+In my CV, I've listed info rmation about my past employment, educational background, and character traits. After looking over the job description, I am confident that I
+meet all the necessary requirements.
+I've conducted considerable research on your company, found your path fascinating, and look forward to what the future holds. It would be an honour for me to help with that.
+Please let me know whether you received this email. Contact me if you have any questions (insert details).
+I'm eager to learn what will happen next.
+
+
+----------------------Thank You email post job offer----------------------------
+THANK YOU FOR OFFERING ME THE OPPORTUNITY TO WORK AT [COMPANY NAME] AS [JOB TITLE]. I SINCERELY APPRECIATE YOUR TIME AND CONSIDERATION.
+I'M HAPPY TO ACCEPT THE [JOB TITLE] POSITION. AS WE MOVE FORWARD, I'D LIKE TO CLARIFY [YOUR QUESTIONS ABOUT THE POSITION]. PLEASE CONTACT ME AT [YOUR CONTACT INFORMATION] TO ESTABLISH THE NEXT STEPS. THANK YOU AGAIN FOR THIS OPPORTUNITY. I'M EXCITED TO WORK WITH THE [COMPANY NAME] TEAM SOON.
+
+
+--------------Introduction-------------------
+Hello good afternoon. thank you for giving me an opporunity. My name is Abulqasim ansari. i from uttar pradesh allahabad. but i'm living in Bhiwandi/Mumbai.
+i am 24 years old. i'm hindi medium student my english is not very well. I'll make mistake during an interview.
+i hope you ignore it. I have done BCA from Swami vivekanand subharti university meerut
+i have two years experience. my expertise extend laravel, php, ci4 mysql javascript jquery and more.
+i know very well about relational database.
+i have worked on many project like Hospital website and Admin panel and builder rest api.
+Thats all about me.
+
+
+My name is AbulQasim Ansari, I am currently living in bhiwandi.
+I have done BCA from meerut University
+my expertise extends to Laravel, PHP, JavaScript, jQuery, and more. I know very well about relational databases, particularly MySQL.
+I am comfortable with Hindi, bcz our primary language is Hindi. If possible, I would appreciate it if I could answer some of the questions in Hindi.
+That's all about me.
+I am excited about the opportunity to express my expertise in Laravel web development and contribute to your team's
+
+-------------------Interview Questions & Answers------------------
+1:) What are namespaces? 
+Answer: Namespace allow you to organised code into logical group and prevent nameing conflict. they provide a way to encapsulate element such as class, function and constant
+
+2:) What is Constant?
+Answer: A constant is an identifier (name) for a simple value. The value cannot be changed during the execution.
+
+3:) What is Function?
+Answer: A function is a piece of code that takes another input in the form of a parameter, processes it, and then returns a value
+
+4:) What is variable ?
+Answer: A variable in PHP is the name of the memory location that holds data.
+
+5:) What is Class?
+Answer: A class is a definition of the properties and methods of a particular type of object
+
+6:) What is Object?
+Answer: An Object is an individual instance of the data structure defined by a class
+
+7:) What is Session ?
+Answer: Session in PHP is a way of temporarily storing and making data accessible across all the website pages.
+
+8:) What is method overloading?
+Answer: Method overloading is the ability to define multiple mehtod in a class with the same name but with different parameters
+
+9:) Does PHP support method overloading?
+Answer: No, PHP does not support method overloading directly.
+
+10:) Explain what traits are?
+Answer: Trait are a mechanism for making code reuseable. they enable to share method and properties without inheritence.
+
+11:) Explain what cookies are and how to create them in PHP.
+Answer: Cookies are a small piece of data stored on the client's browser, this is commonly used for session management. setcookie('key', value, time)
+
+12:) How would you set an infinite execution time in PHP?
+Answer: To Set an infinite execution of time in php we can you set_time_limit function with 0 parameter set_time_limit(0)
+
+13:) When would you use the “file_get_contents()” function?
+Answer: The `file_get_contents()` function is used to read the contents of file into a string. `file_get_contents('filename.txt')`
+
+14:) How are constants defined in PHP?
+Answer: Constant in PHP are defined using the define() function. Once defined constant can not be changed during the script. like example define('PI',3.14)
+
+15:) What does the unlink() function mean?
+Answer: The `unlink()` function in php is used to delete a file. unlink("filename.txt");
+
+16:) What does the unset() function mean?
+Answer: The `unset` funciton is php is used to unset variable or an element within an array
+
+17:) What is the default port for MySQL Server?
+Answer: The default port for MYSQL is 3306
+
+18:) What is a join in MySQL? left vs right join?
+Answer: The join in MYSQL is a way to combine row from two or more table.
+Left join retrieves all records from the left  table and matched records from the right table
+Right join retrieves all record from the right table and matched records from the left table.  
+
+19:) What is the storage engine used for MySQL?
+Answer: The default storage engine used for MYSQL is InnoDB.
+
+20:) What is primary is MYSQL?
+Answer: In MYSQL primary key is a column that uniquely identify. it must unique and can not null value.
+
+21:) What is the use of ENUM in MySQL?
+Answer: In MYSQL ENUM is a data type that allow you to spicify a list of possible value.
+
+22:) What are service provider ?
+Answer: In laravel Service provider is a central place where to configure laravel application, if we open app.php file inside config folder we will see all service provider array, these all array helping to load our laravel application.
+
+22:) What are Service container ?
+Answer: Service container are used to manage class dependencies and perform dependencies injection.
+
+24:) What is Facade ?
+Answer: In laravel Facade provide "static" interface that allow you to access laravel service in a concise and expressive way.
+
+25:) What are middlewares?
+Answer: In laravel Middlewares provide a convenient machenism for filtering incoming HTTP request entering the application.
+
+26:) What is migration and how to create a migration ?
+Answer: Laravel provides a powerful migration system to manage database schema.
+Migration are used to manage database schema we can create a migration using Artisan command  `make:migration`
+
+27:) What is reverse routing?
+Answer: Reverse routing also known as naming routing. it is used for generating dynamic url insteadof hardcoded.
+
+28:) What are default files in Laravel for routing?
+Answer: The default file for routing in laravel web and api.php. located in the 'rotues' directory
+
+29:) What is ORM, explain?
+Answer: ORM stand for Object Relational Mapping, it provide a convenient way to intract with the database using PHP Object
+
+30:) What is eager loading?
+Answer: Eager loading in laravel is a technique for loading relational table or model.
+
+31:) Laravel Softdeletes?
+Answer: Softdeletes in laravel allow you to delete a record from database without actually removing it using deleted_at column
+
+32:) What is RollBack?
+Answer: In laravel Rollback is way to reverting to changes made by a migrations
+
+33:) Seeders and factories, accessors and mutators?
+Answer: • Seeder are a class used to polulate the database with sample data
+		• Factory are used to generate fake data using faker library. it is used for generating dummy data for testing.
+		• Accessors allow you to modify the attribute value when accessing them.
+		• Mutators allow you to modify the attribute value when inserting them.
+
+34:) What is the difference between authentication and authorization?
+Answer: Authentication verifies the identity of a user. after Authentication what action is allowed to perform of user.
+
+35:) What’s the difference between HTTPS and HTTP?
+Answer: HTTPS stand for( Hypertext Transfer Protocal Secure) is a secure verison of HTTP. it encrypt data send between the client and the server.
+
+36:) Diffrence bitween Delete and Truncate ?
+Answer: • Delete is a command used to remove specific row from a table based on a condition
+		• Truncate is a command used to remove all record from a table resetting any auto_incremented primary key column.
+
+37:) Diffrence bitween Primary key and Forign key ?
+Answer: • Primary key uniquely identifies each record in a table.
+		• Foreign Key is used for establishing relationship between two or more table.
+
+38:) What is Laravel?
+Answer: Laravel is a popular PHP web application framework known for its elegant syntax and well documented. It simplifies tasks such as routing, authentication, sessions, and caching, making development more efficient.
+
+39:) What is Blade in Laravel?
+Answer: Blade is Laravel’s templating engine, which allows you to write concise and expressive templates for your views.
+
+40:) What is MVC Pattern?
+Answer: MVC stands for Model-View-Controller. In Laravel, the model represents the data, the view displays the data, and the controller handles user requests and business logic.
+
+41:) What is Migration?
+Answer: Laravel provides a powerful migration system to manage database schema. Migrations are like version control for your database, allowing you to define database structure in a migration file and then run php artisan migrate to apply these changes.
+
+42:) What is Composer in Laravel?
+Answer: Composer is a dependency management tool used in Laravel to manage and install PHP packages and libraries.
+
+43:) Explain the concept of Dependency Injection in Laravel.
+Answer: Dependency Injection is a design pattern in Laravel where dependencies are “injected” into a class rather than being created within the class. This promotes code reusability and testability.
+
+44:) What is the purpose of Laravel’s Artisan console?
+Answer: Artisan is a command-line tool provided by Laravel to help you perform various tasks, including generating code, migrating databases, and running tests.
+
+45:) Explain the difference between put and patch HTTP methods in Laravel.
+Answer: Both put and patch are used to update resources, but put typically replaces the entire resource, while patch updates specific fields.
+
+46:) What are Laravel Collections?
+Answer: Collections are a powerful way to work with arrays of data. Laravel collections provide a variety of methods to manipulate data.
+
+47:) Explain the use of the Laravel task scheduler.
+Answer: The Laravel task scheduler allows you to schedule Artisan commands to run at specified intervals, making it easy to automate repetitive tasks.
+
+48:) What is the purpose of the with() method in Eloquent?
+Answer: The with() method is used to eager load related data to reduce the number of database queries when retrieving data.
+
+49:) How can you implement caching in Laravel?
+Answer: Laravel provides a powerful caching system that allows you to store and retrieve data from various cache stores. You can use the cache helper and Artisan commands for caching.
+
+50:) What are policies and gates in Laravel?
+Answer: Policies and gates are authorization mechanisms in Laravel that allow you to define and check user permissions for specific actions.
+
+51:) What are Laravel Macros?
+Answer: Macros allow you to extend Laravel’s core classes with your own methods, making it easy to add custom functionality to the framework.
+
+52:) How To Enable The Query Logging?
+Answer: You can use enableQueryLog() function to enable query logging in laravel apps: DB::connection()->enableQueryLog();
+
+53:) What is csrf token ?
+Answer: The CSRF function of Laravel automatically generates Laravel CSRF token for each active user session. This token helps to verify that the request and approval for application is only given to the authenticated user.
+
+54:) Differentiate between delete() and softDeletes().
+Answer: delete(): remove all record from the database table.
+softDeletes(): It does not remove the data from the table. It is used to flag any record as deleted.
+
+55:) What is Laravel Livewire, and how is it used?
+Answer: Laravel Livewire is a full-stack framework for building dynamic web interfaces. It combines the best of Laravel and Vue.js to simplify front-end development.
+
+56:) How can you validate form data in Laravel?
+Answer: Laravel provides a built-in validation system. You can define validation rules in a controller and use the validate() method to check incoming data.
+
+57:) What is a Laravel controller, and what is its purpose?
+Answer: A controller in Laravel is a class that handles HTTP requests and defines the application’s response. It acts as an intermediary between the routes and the actual logic of your application.
+
+58:) What is the primary purpose of a Laravel controller?
+Answer: A Laravel controller is responsible for handling incoming HTTP requests and returning appropriate responses. It acts as an intermediary between the user and the application’s logic, facilitating the execution of actions based on the user’s input.
+
+59:)Explain the difference between a resource controller and a regular controller in Laravel.
+Answer: A resource controller in Laravel provides predefined methods for handling CRUD (Create, Read, Update, Delete) operations on a resource, whereas a regular controller allows you to define custom methods for handling specific actions.
+
+60:) What is an Eloquent model in Laravel, and why is it used?
+Answer: An Eloquent model is a class that represents a database table. It is used to interact with the database, including performing queries, defining relationships, and encapsulating the table’s logic.
+
+61:) What is Validation?
+Answer: Form validation in Laravel can be handled using the validate method within controllers or by using Form Request classes. You define validation rules and custom messages to ensure that the input meets the required criteria.
+
+62:) What is Middleware?
+Answer: Middleware acts as a filter for HTTP requests entering your application. It's used for tasks like authentication, logging, and modifying requests. You can create custom middleware and apply it globally or to specific routes.
+
+63:) What is ORM?
+Answer: Eloquent ORM provides an easy-to-use, fluent interface for interacting with the database.
+Benefits include:
+	• Simple and expressive syntax for querying and manipulating data.
+	• Built-in relationships management (e.g., one-to-one, one-to-many).
+	• Ability to define scopes and accessors/mutators for model attributes.
+
+64:) What is Blade?
+Answer: Blade is Laravel's templating engine, providing a simple and powerful way to create views. Blade templates use the .blade.php file extension and offer features like template inheritance, sections, and directives for control structures.
+
+65:) How to implement Auth System in larvel?
+Answer: Laravel provides built-in authentication features via the Auth facade. You can use the make:auth command to scaffold authentication routes, controllers, and views. For custom implementations, you can define guards and providers in config/auth.php.
+
+66:) What is Eloquent relationship?
+Answer: Relationships in Eloquent are defined using methods in the model class:
+	• One-to-One: hasOne and belongsTo
+	• One-to-Many: hasMany and belongsTo
+	• Many-to-Many: belongsToMany
+	• Polymorphic Relationships: morphTo and morphMany
+
+67:) Waht is PHP ?
+Answer: PHP is a general-purpose scripting language geared towards web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1993 and released in 1995. 
+
+68:) What is event ?
+Answer: Laravel event allowing you to subscribe and listen for various events that occur within your application.
+
+69:) What is listener ?
+Answer: A listener is a function or method that waits for an event to occur and executes some code in response.
+
+70:) What is Observer ?
+Answer: Observers are classes that listen to the lifecycle events of a model, such as creating, updating, or deleting.
+
+71:) What is Facade ?
+Answer: A facade is a class that provides access to an object from the container.
+
+-----------Javascript------------
+72:) What is ajax ?
+Answer: AJAX stands for Asynchronous JavaScript and XML and it is a group of related technologies(HTML, CSS, JavaScript. We can send data to the server and get data from the server without reloading the web page.
+
+73:) What is javascrpt ?
+Answer: JavaScript is the Programming Language for the Web. JavaScript can update and change both HTML and CSS. JavaScript can calculate, manipulate and validate data.
+
+74:) Whata is Css ?
+Answer: CSS stands for Cascading Style Sheets. CSS is the language we use to style a Web page.
+
+75:) What is an API?
+Answer: An API (Application Programming Interface) is a set of rules and protocols for building and interacting with software applications. It allows different software systems to communicate with each other.
+
+76:) What are REST APIs?
+Answer: REST APIs adhere to REST (Representational State Transfer) architecture. They use HTTP requests to perform CRUD operations (Create, Read, Update, Delete) on resources, typically represented in JSON or XML format.
+
+77:) What are HTTP methods? Name a few.
+Answer: HTTP methods are the request methods used to interact with resources in RESTful APIs. Common methods include:
+	• GET: Retrieve data.
+	• POST: Create data.
+	• PUT: Update data.
+	• DELETE: Remove data.
+
+78:) What is an API key?
+Answer: An API key is a unique identifier used to authenticate a client making API requests. It helps in tracking and controlling how the API is used.
+
+79:) How do you secure an API?
+Answer: • Authentication: Using API keys, OAuth tokens, JWT.
+		• Authorization: Ensuring users have permission to access resources.
+		• Rate Limiting: Limiting the number of requests to prevent abuse.
+		• HTTPS: Encrypting data in transit.
+
+80:) What is API rate limiting?
+Answer: Rate limiting controls the number of requests a client can make to an API within a specific time frame, preventing abuse and ensuring fair usage.
+
+81:) What is a Relational Database?
+Answer: A relational database is a type of database that organizes data into rows and columns,
+
+-----------Core PHP--------------
+82:) What is PHP?
+Answer: PHP (Hypertext Preprocessor) is a server-side scripting language designed for web development but also used as a general-purpose programming language.
+
+83:) How do you create a variable in PHP?
+Answer: Variables in PHP are created using the $ sign followed by the variable name. For example: $variableName = "value";.
+
+84:) What are the different types of loops in PHP?
+Answer: PHP supports for, while, do-while, and foreach loops.
+Intermediate Level:
+
+85:) Explain the difference between include() and require().
+Answer: include() produces a warning if the file is not found, whereas require() produces a fatal error and stops the script execution.
+
+86:) How can you get information sent via a URL in PHP?
+Answer: You can use the $_GET superglobal array to retrieve information sent via a URL.
+
+87:) What is $_SERVER in PHP?
+Answer: $_SERVER is a superglobal array containing information such as headers, paths, and script locations.
+Advanced Level:
+
+88:) How does PHP handle sessions?
+Answer: PHP handles sessions by creating a unique session ID for each user, storing session data on the server. Start a session with session_start(), and use $_SESSION to set or retrieve session variables.
+
+89:) Explain the use of isset() and empty() functions.
+Answer: isset() checks if a variable is set and is not null. empty() checks if a variable is empty or not.
+
+90:) What are traits in PHP?
+Answer: Traits are used to declare methods that can be reused in multiple classes, reducing code duplication.
+OOP (Object-Oriented Programming) Questions
+
+91:) What is a class in PHP?
+Answer: A class is a blueprint for creating objects, containing properties and methods.
+
+92:) What is an object in PHP?
+Answer: An object is an instance of a class.
+
+93:) What is inheritance in PHP?
+Answer: Inheritance is when a class (child) inherits properties and methods from another class (parent).
+Intermediate Level:
+
+94:) Explain polymorphism in PHP.
+Answer: Polymorphism allows methods to perform different tasks based on the object it is acting upon, typically through method overriding and interfaces.
+
+95:) What is an interface in PHP?
+Answer: An interface defines methods that must be implemented by a class without specifying how they should be implemented.
+
+96:) Difference between abstract class and interface.
+Answer: An abstract class can have both abstract and concrete methods, while an interface can only have abstract methods.
+Advanced Level:
+
+97:) How does __autoload() function work?
+Answer: The __autoload() function automatically loads class files when they are needed.
+
+98:) What are magic methods in PHP?
+Answer: Special methods starting with double underscores, like __construct(), __destruct(), __call(), used for various tasks such as object creation, destruction, and method calls.
+
+99:) Explain the Singleton pattern.
+Answer: The Singleton pattern ensures a class has only one instance and provides a global point of access to it.
+
+
+------------PHP String Functions--------------
+strlen() = Description: Returns the length of a string.
+trpos() = Description: Finds the position of the first occurrence of a substring in a string
+str_replace() = Description: Replaces all occurrences of a search string with a replacement string.
+substr() = Description: Returns a portion of a string.
+strtolower() = Description: Converts a string to lowercase.
+strtoupper() = Description: Converts a string to uppercase.
+trim() = Description: Removes whitespace or other characters from both ends of a string.
+explode() = Description: Splits a string by a string delimiter and returns an array.
+implode() = Description: Joins array elements with a string.
+md5() = Description: Calculates the MD5 hash of a string.
+
+------------PHP Array Functions--------------
+array_push() = Description: Pushes one or more elements onto the end of an array.
+array_pop() = Description: Pops the last element off an array.
+array_merge() = Description: Merges one or more arrays.
+array_combine() = Description: Creates an array by using one array for keys and another for its values.
+array_keys() = Description: Returns all the keys or a subset of the keys of an array.
+array_values() = Description: Returns all the values of an array.
+in_array() = Description: Checks if a value exists in an array.
+array_search() = Description: Searches the array for a given value and returns the corresponding key if successful.
+array_slice() = Description: Extracts a slice of the array.
+array_diff() = Description: Compares array values, and returns the differences.
+
+------------ Laravel 11 --------------
+Yes, Laravel 11 has been released on March 12, 2024, and it introduces several notable changes and enhancements. Here are some key updates:
+
+• PHP 8.2 Minimum Requirement: Laravel 11 requires at least PHP 8.2, aligning with the latest PHP features and optimizations.
+• Console Kernel Removal: The Console Kernel has been removed, and console commands are now defined directly in routes/console.php.
+• Eager Load Limit: Laravel 11 integrates eager load limits directly into the framework, allowing you to limit related model loads more easily.
+• New Artisan Commands: New commands like php artisan make:class, php artisan make:enum, php artisan make:interface, and php artisan make:trait streamline class creation.
+• Blade Enhancements: Blade, Laravel’s templating engine, now has improved component handling, making it easier to manage and reuse code in complex UIs.
+• Simplified Configuration: Configuration settings have been consolidated into the .env file, simplifying the development workflow and improving organization.
+• Route Handling: Default route files have been reduced, with a focus on modular and customizable application structure. For instance, API routes need to be explicitly opted into with php artisan install:api.
+• Security Improvements: Stronger password hashing algorithms and potential support for two-factor authentication enhance security.
+• SQLite by Default: Laravel 11 uses SQLite for database storage by default, facilitating immediate project setup without additional database configurations.
+• Laravel Reverb: This new feature offers high-speed, scalable real-time WebSocket communication, integrating seamlessly with Laravel’s event broadcasting tools.

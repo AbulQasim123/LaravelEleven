@@ -9,12 +9,16 @@ use App\Http\Controllers\{
     DragDropController,
     RoleController,
     CKEditorController,
+    CategoryController,
     AjaxFormController,
     jqueryAutoComplete,
+    MessageController,
     VacancyCRUDController,
+    CurrencyController,
     UserController,
     UploadPreviewController,
     AdminController,
+    DynamicAddRemoveFieldController,
     AnchorController,
     MyUploadController,
     BlogController,
@@ -227,6 +231,35 @@ Route::get('collection', function (Request $request) {
     dd($flipped->all());
 });
 
+// Mobile Validation
+// Route::get('hello-email', function (Request $request) {
+//     //first solution
+//     $this->validate($request, [
+//         'phone' => 'required|digits:10'
+//     ]);
+
+//     //second solution
+//     $this->validate($request, [
+//         'phone' => 'required|numeric|between:9,11'
+//     ]);
+
+//     //  third solution
+//     $this->validate($request, [
+//         'phone' => 'required|min:10|numeric'
+//     ]);
+
+//     //fourth solution
+//     $this->validate($request, [
+//         'phone' => 'required|regex:/(01)[0-9]{9}/'
+//     ]);
+
+//     //fifth solution
+//     $this->validate($request, [
+//         'phone' => 'required|regex:/^([0-9\s\-\+\(\)]*)$/|min:10'
+//     ]);
+// });
+
+
 // Laravel 11
 Route::get('hello-email', [HelloController::class, 'sendHelloMail']);
 Route::get('/import', [ExcelImportController::class, 'showForm']);
@@ -292,3 +325,20 @@ Route::post('upload-image', [MyUploadController::class, 'multipleUpload']);
 // Ajax Form routes
 Route::get('form', [AjaxFormController::class, 'index']);
 Route::post('save', [AjaxFormController::class, 'store']);
+
+// Ajax Category routes
+Route::get('cat', [CategoryController::class, 'index']);
+Route::post('subcat', [CategoryController::class, 'subCat'])->name('subcat');
+
+// Dynamic add remove routes
+Route::get('add-remove-multiple-input-fields', [DynamicAddRemoveFieldController::class, 'index']);
+Route::post('add-remove-multiple-input-fields', [DynamicAddRemoveFieldController::class, 'store']);
+
+// Currency routes
+Route::get('currency', [CurrencyController::class, 'index']);
+Route::post('currency', [CurrencyController::class, 'exchangeCurrency']);
+
+// Sweet Alert routes
+Route::get('/success', [MessageController::class, 'success']);
+Route::get('/warning', [MessageController::class, 'warning']);
+Route::get('/error', [MessageController::class, 'error']);
