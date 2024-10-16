@@ -4,7 +4,7 @@
     <li>hasOne</li>
     <li>hasMany</li>
     <li>belongTo</li>
-    <li>Many-to-many</li>
+    <li>One-to-many</li>
     <li>Many-to-many</li>
     <li>Polymorphic</li>
     <li>And More</li>
